@@ -1,0 +1,34 @@
+h1{
+    color:red;
+    font-size: 60pt;
+}
+
+em{
+    color:orange;
+}
+
+.special{
+    font-weight: bold;
+}
+
+#item-three{
+    text-decoration: underline;
+}
+
+.first,.last{
+    color: blueviolet;
+}
+
+li:first-child,li:last-child{
+    color: white;
+    background-color: black;
+}
+
+p::first-letter{
+    color:yellow;
+    font-size: 200%;
+}
+
+p::first-line{
+    font-variant: small-caps;
+}
